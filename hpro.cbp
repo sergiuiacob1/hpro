@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="hpro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/hpro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/hpro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="E:/Q_Q/SFML-2.3/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="E:/Q_Q/SFML-2.3/lib" />
+		</Linker>
+		<Unit filename="data.in" />
+		<Unit filename="include/box.h" />
+		<Unit filename="include/hotel.h" />
+		<Unit filename="include/imagine.h" />
+		<Unit filename="include/misc.h" />
+		<Unit filename="include/rezervare.h" />
+		<Unit filename="include/searchResult.h" />
+		<Unit filename="include/textBox.h" />
+		<Unit filename="include/user.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rated.in" />
+		<Unit filename="rezervari.in" />
+		<Unit filename="src/box.cpp" />
+		<Unit filename="src/hotel.cpp" />
+		<Unit filename="src/imagine.cpp" />
+		<Unit filename="src/misc.cpp" />
+		<Unit filename="src/rezervare.cpp" />
+		<Unit filename="src/searchResult.cpp" />
+		<Unit filename="src/textBox.cpp" />
+		<Unit filename="src/user.cpp" />
+		<Unit filename="userData.in" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
